@@ -1,4 +1,4 @@
-package springjwtoauth2.practice.web.jwt.service;
+package springjwtoauth2.practice.web.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

@@ -1,4 +1,4 @@
-package springjwtoauth2.practice.web.jwt.util;
+package springjwtoauth2.practice.web.util;
 
 import java.security.SecureRandom;
 import java.util.Date;

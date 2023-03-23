@@ -1,4 +1,4 @@
-package springjwtoauth2.practice.web.jwt.filter;
+package springjwtoauth2.practice.web.filter;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -16,8 +16,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.filter.OncePerRequestFilter;
 import springjwtoauth2.practice.domain.entity.Member;
 import springjwtoauth2.practice.domain.repository.MemberRepository;
-import springjwtoauth2.practice.web.jwt.service.JwtService;
-import springjwtoauth2.practice.web.jwt.util.PasswordUtil;
+import springjwtoauth2.practice.web.service.JwtService;
+import springjwtoauth2.practice.web.util.PasswordUtil;
 
 import java.io.IOException;
 
