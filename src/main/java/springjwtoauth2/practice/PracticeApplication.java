@@ -12,6 +12,7 @@ public class PracticeApplication {
 
 }
 
+//--------------------[JWT]--------------------
 //	1. JWT(JSON Web Token)는 뭘까?
 //		JWT => 인증에 필요한 정보들을 암호화시킨 JSON 토큰
 //		JWT를 이용한 인증 => 유저를 인증하고 식별하기 위한 Token 기반의 인증
@@ -83,4 +84,40 @@ public class PracticeApplication {
 //			RefreshToken이 유효하면, AccessToken의 재발급을 진행
 
 //		==> 사용자의 눈에는 별도의 재로그인 과정없이 AccessToken이 만료되지 않은 것처럼 동작함
+
+
+//--------------------[OAuth2]--------------------
+//	1. OAuth(Open Authorization)는 뭘까? 대체
+//		OAuth => 인터넷 사용자들이 비밀번호를 제공하지 않고 다른 웹사이트 상의 자신들의 정보에 대해
+//					웹사이트나 어플리케이션의 접근 권한을 부여할 수 있는 공통적인 수단으로서 사용되는
+//					접근 위임을 위한 개방형 표준 (걍 사실상 다른 웹에 맡긴다는거)
+//				신뢰할 수 있는 외부 어플리케이션 오픈 API(네이버, 구글, 카카오, 페북)에
+//				아이디와 비밀번호를 입력해서 인증 과정을 처리해주는 방식
+//				이때 위의 애플리케이션에서 일부 정보를 제공받아 해당 정보로 유저를 관리하면 됨
+
+//		왜 만들었나?	OAuth가 없다면
+//			사용자 	=> 어플에 타 웹사이트의 아이디와 비밀번호를 넘기는 것에 대해 신뢰할 수 없음
+//			어플		=> 타 웹사이트의 아이디와 비밀번호를 저장하기 때문에 보안 문제가 생기는 경우 모든 책임을 져야함
+//			타 웹사이트 => 해당 어플을 신뢰할 수 없음
+
+//	2. OAuth 2.0 구성 요소
+//		Resource Server => OAuth2.0 서비스를 제공하고 Resource를 관리하는 서버 (네이버, 구글, 카카오, ...)
+//							Client가 해당 서버에 인증 서버에서 발급받은 토큰을 넘겨 개인 정보를 받을 수 있음
+//		Resource Owner => 어플리케이션을 이용하려는 Resource Server의 계정을 소유하고 있는 사용자
+//		Client => Resource Server의 API를 사용하여 정보를 가져오려는 애플리케이션 서버
+//					(Resource Server에 API를 요청하기 때문에 그냥 Client라고 함)
+//		Authorization Server => Client가 Resource Server의 서비스를 이용할 수 있게 인증해주고 토큰을 발행해주는 인증 서버
+//									(네이버, 구글, 카카오, ...등의 인증서버)
+//								Resource Owner(사용자)는 아이디, 비밀번호를 넘겨서 Authorization Code를 발급받음
+//								Client는 사용자가 발급받은 Authorization Code를 이 서버로 넘겨 토큰 발급받음
+//		AccessToken => JWT의 AccessToken -> 이걸로 Resource Server에서 개인정보를 받을 수 있음
+//		RefreshToken => JWT의 RefreshToken -> 이걸로 AccessToken 재발급
+
+//		Client(사용자가 이용하려는 서비스)에서 Resource Owner(서비를 이용하려는 사용자)를 대신하여
+//		Authorization Server와 Resource Server에 요청을 보내 로그인을 수행함
+
+//		
+
+
+
 

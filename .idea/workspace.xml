@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d8e3fc-36af-430c-95fe-864443571cf4" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/Handler/LoginFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/Handler/LoginSuccessHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/PracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/PracticeApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1679357049649" duration="3756000" />
       <workItem from="1679445357832" duration="5710000" />
       <workItem from="1679529519702" duration="9003000" />
-      <workItem from="1679616511342" duration="2620000" />
+      <workItem from="1679616511342" duration="3315000" />
+      <workItem from="1679876272642" duration="3654000" />
     </task>
     <servers />
   </component>
