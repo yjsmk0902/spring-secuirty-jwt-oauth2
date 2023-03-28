@@ -1,4 +1,4 @@
-package springjwtoauth2.practice.web.Handler;
+package springjwtoauth2.practice.web.handler;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
