@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d8e3fc-36af-430c-95fe-864443571cf4" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/domain/dto/OAuthAttributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/domain/userinfo/GoogleOAuth2UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/domain/userinfo/KakaoOAuth2UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/domain/userinfo/NaverOAuth2UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/domain/userinfo/OAuth2UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/oauth2/CustomOAuth2User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/handler/OAuth2LoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/handler/OAuth2LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/service/CustomOAuth2UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/Handler/LoginFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/handler/LoginFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/Handler/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/oauth2/CustomOAuth2User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/web/oauth2/CustomOAuth2User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,8 @@
       <workItem from="1679616511342" duration="3315000" />
       <workItem from="1679876272642" duration="4984000" />
       <workItem from="1679961194913" duration="3654000" />
-      <workItem from="1679966065764" duration="1057000" />
+      <workItem from="1679966065764" duration="1665000" />
+      <workItem from="1680047695674" duration="3077000" />
     </task>
     <servers />
   </component>
