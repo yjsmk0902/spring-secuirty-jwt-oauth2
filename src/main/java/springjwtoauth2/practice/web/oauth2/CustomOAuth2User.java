@@ -1,5 +1,6 @@
 package springjwtoauth2.practice.web.oauth2;
 
+import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.oauth2.core.user.DefaultOAuth2User;
 import springjwtoauth2.practice.domain.Role;
@@ -7,6 +8,7 @@ import springjwtoauth2.practice.domain.Role;
 import java.util.Collection;
 import java.util.Map;
 
+@Getter
 public class CustomOAuth2User extends DefaultOAuth2User {
 
     //Resource Server에서 제공하지 않는 추가 정보(여기에서는 emil)들을
@@ -21,4 +23,5 @@ public class CustomOAuth2User extends DefaultOAuth2User {
         this.email = email;
         this.role = role;
     }
+
 }
