@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d8e3fc-36af-430c-95fe-864443571cf4" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springjwtoauth2/practice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,9 @@
       <workItem from="1679961194913" duration="3654000" />
       <workItem from="1679966065764" duration="1665000" />
       <workItem from="1680047695674" duration="3331000" />
-      <workItem from="1680220493879" duration="2263000" />
+      <workItem from="1680220493879" duration="2373000" />
+      <workItem from="1680420351760" duration="2130000" />
+      <workItem from="1680489943046" duration="1932000" />
     </task>
     <servers />
   </component>
